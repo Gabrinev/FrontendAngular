@@ -18,6 +18,7 @@ import { PaginatorComponent } from './paginator/paginator.component';
 import { MatDatepickerModule,  } from "@angular/material/datepicker";
 import { MatNativeDateModule } from "@angular/material/core";
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { DetalleComponent } from './clientes/detalle/detalle.component';
 
 registerLocaleData(localeES, 'es');
 const routes:Routes = [
@@ -39,7 +40,8 @@ const routes:Routes = [
     DirectivaComponent,
     ClientesComponent,
     FormComponent,
-    PaginatorComponent
+    PaginatorComponent,
+    DetalleComponent
   ],
   imports: [
     BrowserModule,

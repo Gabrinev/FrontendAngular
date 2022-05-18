@@ -1,3 +1,4 @@
+import { Region } from "./detalle/region";
 
 export class Cliente {
     id: number;
@@ -5,4 +6,6 @@ export class Cliente {
     apellido: string;
     createAt: string;
     email: string;
+    foto: string;
+    region: Region;
 }
